@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
-import SpringFluid from "./background-fluid/index"
+import Mainimg from './components/main-img';
 
 function App() {
   return (
     <div className="App">
-      <SpringFluid />
+   <Mainimg/>
+
     </div>
   );
 }
