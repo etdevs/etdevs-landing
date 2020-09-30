@@ -19,7 +19,9 @@ export default function FooterEmail() {
     return (
         <div className="EmailField">
             <form className={classes.form}  autoComplete="off">
-                <TextField id="outlined-basic" label="Join our email list " color="secondary" variant="outlined" type="email" />
+           
+            <TextField  variant="outlined" halfWidth id="standard-secondary" label="Join the newsletter"  color="secondary" />
+     
             </form>
         </div>
     );

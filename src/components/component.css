@@ -14,3 +14,12 @@
     transition: all .4s ease ; 
     transform: scale(1.1) ;
   }
+  h3{
+   color:gray;
+  
+   
+  }
+  h3  :hover{
+    transition: all .4s ease ; 
+    transform: scale(1.1) ;
+  }

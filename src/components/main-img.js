@@ -12,6 +12,7 @@ export default function Mainimg() {
         <img alt="" src={HomeImg} />
       </div>
       <br /><br />
+      <h3>ETDevs is a comunity based in ethiopia that tries to gather developers <br/> around the country and help them connect </h3>
       <IconLabelButtons />
       <FooterEmail />
     </div>
