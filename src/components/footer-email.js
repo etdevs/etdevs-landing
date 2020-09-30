@@ -7,7 +7,7 @@ import './component.css';
 const useStyles = makeStyles((theme) => ({
     form: {
         margin: theme.spacing(1),
-        width: '250h',
+        width: 'center',
     },
 
 
@@ -20,7 +20,7 @@ export default function FooterEmail() {
         <div className="EmailField">
             <form className={classes.form}  autoComplete="off">
            
-            <TextField  variant="outlined" halfWidth id="standard-secondary" label="Join the newsletter"  color="secondary" />
+            <TextField variant="outlined" halfWidth id="standard-secondary" label="Join the newsletter"  color="secondary" />
      
             </form>
         </div>
