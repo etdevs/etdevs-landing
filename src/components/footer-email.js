@@ -21,7 +21,7 @@ export default function FooterEmail() {
             <form className={classes.form}  autoComplete="off">
            
             <TextField variant="outlined" halfWidth id="standard-secondary" label="Join the newsletter"  color="secondary" />
-     
+    {/* git push test  */}
             </form>
         </div>
     );
